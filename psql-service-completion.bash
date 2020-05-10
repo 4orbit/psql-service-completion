@@ -4,6 +4,7 @@ _psql_completions()
     local word=${COMP_WORDS[COMP_CWORD]}
     #local line=${COMP_LINE}
     local complete_service=false
+    #local complete_service=true
     local prev="${COMP_WORDS[COMP_CWORD-1]}"
     local prevprev="${COMP_WORDS[COMP_CWORD-2]}"
 
